@@ -18,7 +18,7 @@ function getCountryInfo(nombre) {
 
 function mostrarInfo (country){
   console.log(country);
-  document.querySelectorAll('#contenedor')[0].innerHTML = "<div>Name: " + country.nativeName + "</div>" +"<div>Flag: " + "<img height=40 width=60 src=" +country.flag + ">"  + "</div>" + "<div>Calling Code: +" + country.callingCodes + "</div>" + "<div>Capital: " + country.capital + "</div>"+  "<div>Population: " + country.population + "</div>"+ "<div>Gini: " + country.gini + "</div>"+ "<div>Languages: " + country.languages[0].nativeName + "</div>"+ "<div>Symbol Currencies: " +             country.currencies[0].symbol + "</div>" + "<div>Top level : " + country.topLevelDomain[0]
+  document.querySelectorAll('#contenedor')[0].innerHTML = "<div>Name: " + country.nativeName + "</div>" +"<div>Flag: " + "<img height=40 width=60 src=" +country.flag + ">"  + "</div>" + "<div>Calling Code: +" + country.callingCodes + "</div>" + "<div>Capital: " + country.capital + "</div>"+  "<div>Population: " + country.population + "</div>"+ "<div>Gini: " + country.gini + "</div>"+ "<div>Languages: " + country.languages[0].nativeName + "</div>"+ "<div>Symbol Currencies: " +             country.currencies[0].symbol + "</div>" + "<div>Top level domain: " + country.topLevelDomain[0]
 
 }
 
